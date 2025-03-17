@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 248, 233);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.newspaper-header {
+    margin-top: 10px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    padding-bottom: 15px;
+
+}
+
+.hero-title h1 {
+    font-size: 80px;
+    padding: 0;
+    margin: 0;
+}
+.hero-title img{
+    width: 10em;
+}
+
+.paper-logo {
+    margin-right: 80px;
+}
+
+.hero-subtitle {
+    padding: 10px;
+}
+
+.item-noticia .contenido{
+ border-right: 1px black solid;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 30px;
+ align-items: center;
+ padding: 20px;
+}
+
+
+.item-noticia p{
+    width: 300px;
+}
+.item-noticia img{
+    width: 20em;
+}
+.agenda-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1rem;
+    background-image: url("https://st5.depositphotos.com/12371120/65841/i/450/depositphotos_658414974-stock-photo-newspaper-paper-grunge-aged-newsprint.jpg");
+  
+  
+}
